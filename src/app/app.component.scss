@@ -1,0 +1,54 @@
+/* Agrega estilos personalizados aquí */
+.container {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    width: calc(100% - 16px);
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Agrega un margen inferior */
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
